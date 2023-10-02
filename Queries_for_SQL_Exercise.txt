@@ -1,0 +1,23 @@
+1
+SELECT host_neighbourhood, COUNT(*)
+FROM listings
+GROUP BY host_neighbourhood
+
+
+2
+SELECT number_of_reviews FROM listings
+ORDER BY number_of_reviews DESC
+LIMIT 20
+
+
+3
+SELECT * FROM reviews
+INNER JOIN listings
+ON listings.id = reviews.listing_id
+WHERE listings.property_type = "Bed & Breakfast"
+
+
+4
+
+
+
