@@ -17,7 +17,7 @@ ON listings.id = reviews.listing_id
 WHERE listings.property_type = "Bed & Breakfast"
 
 
-4
+
 
 
 
